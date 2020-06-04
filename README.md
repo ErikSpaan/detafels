@@ -1,16 +1,16 @@
 ## Over het project de tafels
 
-Dit project bestaat uit 5 pagina's:
-index: Alle tafeloefeningen
-create: Maak een nieuwe oefening aan
-finished: klaar met de oefening
-play: begin met oefenen
+Dit project bestaat uit 5 pagina's:<br>
+index: Alle tafeloefeningen<br>
+create: Maak een nieuwe oefening aan<br>
+finished: klaar met de oefening<br>
+play: begin met oefenen<br>
 showresults: analyseer de resultaten en maak aan de hand hiervan een nieuwe opdracht
 
 ## gebruikte technieken:
-Laravel
-PHP
-HTML
-CSS en SASS
-Javascript en Jquery
+Laravel<br>
+PHP<br>
+HTML<br>
+CSS en SASS<br>
+Javascript en Jquery<br>
 database mysql
