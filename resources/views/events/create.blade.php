@@ -28,7 +28,7 @@
 						<div class="container_checkbox">
 							<div class="container_checkbox_out">
 								<div class="container_checkbox_in">
-									@for ($i = 1; $i <= 10; $i++)
+									@for ($i = 1; $i <= 20; $i++)
 										<span class="container_checkbox-field">
 											<input type="checkbox" id="table{{ $i }}" class="checkBoxJs" name="table{{ $i }}" {{ old('table'.$i) ? 'checked':'' }}>
 											<label class="checkbox_label" for="checkbox{{ $i }}"> De tafel van {{ $i }}</label><br>
