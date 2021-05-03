@@ -1,0 +1,30 @@
+
+.container_centerflex {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.image {
+	width: 100%;
+	max-width: 320px;
+	height: auto;
+}
+  
+.container_center-title {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 25px;
+	padding: 0 15px 0 15px;
+}
+
+.blafco {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}

@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  outline: none;
+  word-spacing: 0.1em;
+  letter-spacing: 0.02em;
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.container_main {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 20px 20px 0px 20px;
+  position: relative;
+}
+
+.container_finished {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  min-width: 320px;
+  position: relative;
+  background: #FFF;
+  margin: 40px auto 20px auto;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+@media screen and (max-width: 500px) {
+  .container_finished {
+    margin: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.container_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 320px;
+  background-color: #2A88AD;
+  border: 1px solid #257C9E;
+  border-radius: 10px 10px 0 0;
+}
+
+.container_title h1 {
+  border-radius: 10px 10px 0 0;
+  background: #2A88AD;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .container_title h1 {
+    font-size: 5.4vw;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .container_title h1 {
+    font-size: 18px;
+  }
+}
+
+.container_title h1:nth-of-type(1) {
+  padding: 20px 20px 0px 20px;
+}
+
+@media screen and (max-width: 365px) {
+  .container_title h1:nth-of-type(1) {
+    padding: 20px 10px 0px 10px;
+  }
+}
+
+.container_title h1:nth-of-type(2) {
+  padding: 5px 20px 15px 20px;
+}
+
+@media screen and (max-width: 365px) {
+  .container_title h1:nth-of-type(2) {
+    padding: 5px 10px 15px 10px;
+  }
+}
+
+@media screen and (max-width: 738px) {
+  .hide_text {
+    display: none;
+  }
+}
+
+.container_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+@media screen and (max-height: 600px) {
+  .image {
+    max-width: 360px;
+  }
+}
+
+.container_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0px 0px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .container_button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.button-click {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  margin: 20px 10px 30px 10px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  color: black;
+  font-weight: bold;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.83);
+          box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.83);
+}
+
+.button-click:hover {
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+  text-decoration: none;
+  -webkit-box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.63);
+          box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.63);
+}
+
+.button-click:active {
+  color: green;
+  background-color: white;
+  border: 1px solid green;
+  text-decoration: none;
+}
+/*# sourceMappingURL=finished.css.map */
